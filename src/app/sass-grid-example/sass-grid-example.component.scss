@@ -1,0 +1,40 @@
+h1 {
+  font-size: 2.25rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-container {
+  background: url(/assets/img/pugLarge.jpg) repeat 0 0;
+  height: 20%;
+  width: 90%;
+}
+
+.promo-container {}
+
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 0.1% 50% 49.9%;
+
+  @media screen and (min-width:1080px) {
+    grid-auto-flow: row;
+    grid-template-columns: .5% 50.5% 40%;
+  }
+
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.img {
+  width: 80%;
+  height: 80%;
+}

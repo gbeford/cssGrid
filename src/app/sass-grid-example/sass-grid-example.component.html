@@ -1,0 +1,25 @@
+<div class="main-container">
+  <div class="hero-container">
+    <div class="grid-container">
+      <div class="grid-item" style="background-color:yellow;"> empty {{whatever}}</div>
+      <div class="grid-item">
+        <div style="color:black;">
+          <h1>here is some text</h1>
+          <p>here is more text that I have to put here</p>
+          <button style="background-color: grey;width: 100px; color:white;
+            height: 50px;">hit me</button>
+          <button style="background-color: grey;width: 100px; color:white;
+             height: 50px; padding-right:20px"> click me</button>
+        </div>
+      </div>
+
+      <div class="grid-item" style="background-color:black;" *ngIf="whatever">
+        <div class="promo-container">
+          <img class="img" src="../../assets/img/pug.jpg">
+          <h1>here ad text</h1>
+          <a>here is a link to the ad</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

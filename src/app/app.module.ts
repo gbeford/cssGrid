@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SassGridExampleComponent } from './sass-grid-example/sass-grid-example.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SassGridExampleComponent
   ],
   imports: [
     BrowserModule,
